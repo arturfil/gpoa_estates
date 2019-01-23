@@ -78,8 +78,12 @@ WSGI_APPLICATION = 'gpoa_estate.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'gpoa_estates',
+        'PORT': '5434',
+        'USER': 'postgres',
+        'PASSWORD': 'Jamesbond123',
+        'HOST': 'localhost'
     }
 }
 
