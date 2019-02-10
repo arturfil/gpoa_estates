@@ -1,6 +1,10 @@
 .btn-secondary {
   color: #fff !important; }
 
+.title-brand {
+  padding: 8px;
+}
+
 img {
   width: 100%; }
 
